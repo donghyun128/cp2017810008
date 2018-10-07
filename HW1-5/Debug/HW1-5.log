@@ -1,0 +1,6 @@
+﻿  HW1-5.c
+c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\hw1-5\hw1-5.c(8): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char (*)[16]'입니다.
+  c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\hw1-5\hw1-5.c(8): note: 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\hw1-5\hw1-5.c(9): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char (*)[16]'입니다.
+  c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\hw1-5\hw1-5.c(9): note: 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  HW1-5.vcxproj -> C:\Users\K.D.H\Desktop\대학생활\2학년\C프로그래밍\2017810008 김동현\Debug\HW1-5.exe
