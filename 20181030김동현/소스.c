@@ -13,7 +13,7 @@ int main() {
 	int len;
 	int a[4] = { 2,20,200,2000 }; // 배열 초기화 방법 . 
 	int arr[] = { 3,30,300 };
-	printArrary(a, len);//배열을 매개변수로 ( 배열의이름 a, 배열이 길이 len)
+	printArray(a, len);//배열을 매개변수로 ( 배열의이름 a, 배열이 길이 len)
 	int count = 0;
 	while (count < 4)
 	{
