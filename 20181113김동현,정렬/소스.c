@@ -19,13 +19,13 @@ int findMinindex(int* arr, int length) {
 //입력 : 배열 (배열이름, 배열길이)
 //출력 : 배열 최소값
 
-int findMin(int* arr, int length) {
+int findMin(int* arr, int length, int j) {
 	int Min = arr[0];
 	int i;
 	for (i = 0; i < length; i++)
 	{
-		if (Min > arr[i])
-			Min = arr[i];
+		if (Min > arr[i + j])
+			Min = arr[i + j];
 	}
 			return Min;
 			
@@ -49,9 +49,9 @@ void swapElement(int* arr, int i, int j) {
 int SelectionSort(int* arr, int length) {
 	int i = 0, a = 0 , b = 0;
 	for (i = 0; i < length; i++) {
-		a =findMin(arr[i], length);
-		b = findMinindex(arr[i], length);
-		swapElement(arr, i, findMin(arr[b], length));
+		a =findMin(arr, length,i);
+		b = findMinindex(arr, length);
+		swapElement(arr, i, findMin(arr[b], length,i));
 	}
 	
 	for (i = 0; i < length; i++)
@@ -65,9 +65,9 @@ int SelectionSort(int* arr, int length) {
 int main() {
 	int i = 0;
 	int a[5] = { 30, 35 , 27 ,15 ,40 };
-	printf("%d\n",findMin(a, 5));
+	printf("%d\n",findMin(a, 5, 0));
 	printf("%d\n", findMinindex(a, 5));
-	printf("%d\n", findMin(a,0,3));
+	//printf("%d\n", findMin(a,0,3));
 	for (i = 0; i < 5; i++) {
 		printf("a[%d] = %d\n",i, *a);
 	}

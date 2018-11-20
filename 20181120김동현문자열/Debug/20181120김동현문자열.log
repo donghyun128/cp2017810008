@@ -1,0 +1,6 @@
+﻿  소스.c
+c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181120김동현문자열\소스.c(25): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181120김동현문자열\소스.c(25): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181120김동현문자열\소스.c(23): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'char [6]'과(와) 다릅니다.
+c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181120김동현문자열\소스.c(25): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(137): note: 'strcpy' 선언을 참조하십시오.

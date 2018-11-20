@@ -1,12 +1,7 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(20181113김동현,정렬.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   소스.c
-c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(52): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(52): warning C4024: 'findMin': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
-c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(53): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(53): warning C4024: 'findMinindex': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
 c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(54): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
 c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(54): warning C4024: 'findMin': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
-c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(70): warning C4020: 'findMin': 실제 매개 변수가 너무 많습니다.
 c:\users\k.d.h\desktop\대학생활\2학년\c프로그래밍\2017810008 김동현\20181113김동현,정렬\소스.c(61): warning C4716: 'SelectionSort': 값을 반환해야 합니다.
   20181113김동현,정렬.vcxproj -> C:\Users\K.D.H\Desktop\대학생활\2학년\C프로그래밍\2017810008 김동현\Debug\20181113김동현,선택정렬.exe
   20181113김동현,정렬.vcxproj -> C:\Users\K.D.H\Desktop\대학생활\2학년\C프로그래밍\2017810008 김동현\Debug\20181113김동현,선택정렬.pdb (Partial PDB)
